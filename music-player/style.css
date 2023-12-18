@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+}
+
+#progress .times,
+.card-footer,
+.volume-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.volume-container i {
+  margin-right: 5px;
+}
+
+#controls {
+  margin-bottom: 15px;
+}
+
+#music-img {
+  height: 350px;
+}
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.singer {
+  color: #6c757d;
+}
+
+.play-button {
+  width: 50px;
+  height: 50px;
+}
+
+.play-button i {
+  font-size: 20px;
+}
+#volume {
+  cursor: pointer;
+}
+.list-group-item {
+  cursor: pointer;
+}
+
+li.playing {
+  background-color: #0a48b4;
+  color: #fff;
+}
